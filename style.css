@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #D3F1DF;
+    text-align: center;
+}
+
+#game-heading{
+    margin: 2vmin;
+    color:chocolate;
+    font-size: 2.5rem;
+}
+
+#round-no{
+    color: #5A6C57;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+#small-instruction{
+    color:#5A6C57;
+    margin: 1rem;
+}
+
+#new-game{
+    font-size: 1rem;
+    border-color:#B3C8CF;
+    background-color: #85A98F;
+    border-radius: 1vmin;
+    margin: 2rem;
+    padding: 0.5rem;
+    color: #525B44;
+    font-weight: 900;
+}
+
+#next-round{
+    font-size: 1rem;
+    border-color:#B3C8CF;
+    background-color: #85A98F;
+    border-radius: 1vmin;
+    margin: 1.5rem;
+    margin-top: .5rem;
+    padding: 0.5rem;
+    color: #525B44;
+    font-weight: 900;
+}
+
+.buttons{
+    border-radius: 2vmin;
+    background-color: #D3F1DF;
+}
+
+.images{
+    border-radius: 2vmin;
+    background-color: #D3F1DF;
+}
+
+.possible-choices{
+    border: none;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #D3F1DF;
+}
+
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between text and image */
+    margin: 1.5rem;
+}
+
+.choice-display h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #5A6C57;
+}
+
+.dimmed {
+    filter: brightness(60%); 
+}
+
+.visible {
+    visibility: visible;
+}
+
+.not-visible {
+visibility: hidden;
+}
+
+.score-items{
+    margin: 0.5rem;
+    color: #5A6C57;
+    font-size: 1.3rem;
+}
+
+#round-result{
+    margin: 0.5rem;
+    color: #5A6C57;
+    font-size: 1.3rem;
+}

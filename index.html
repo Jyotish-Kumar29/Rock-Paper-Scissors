@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="game-heading">Rock Paper Scissors Game</h1>
+
+    <button id="new-game">New Game</button>
+
+    <h2 id="round-no">Round 1</h2>
+    <h3 id="small-instruction">Pick one ( Rock / Paper / Scissor )</h3>
+
+    <div class="button-list">
+        <button class="possible-choices"><img id="rock" class="buttons images" src="images/rock.png" alt="this is rock image"
+                height="150"></button>
+        <button class="possible-choices"><img id="paper" class="buttons images" src="images/paper.png" alt="this is rock image"
+                height="150"></button>
+        <button class="possible-choices"><img id="scissors" class="buttons images" src="images/scissors.png" alt="this is rock image"
+                height="150"></button>
+    </div>
+
+    <div class="scores">
+        <h2>Scores</h2>
+        <ul>
+            <li class="score-items">Your Score : 0</li>
+            <li class="score-items">Computer Score : 0</li>
+            <li class="score-items">Draw : 0</li>
+        </ul>
+    </div>
+
+    <button id="next-round" class="not-visible">Next Round</button>
+
+    <div id="chosen" class="choices">
+        <div class="choice-display not-visible">
+            <h2>You Chose :</h2>
+            <img class="images" src="" alt="" height="150">
+        </div>
+        <div class="choice-display not-visible">
+            <h2>Computer Chose :</h2>
+            <img class="images" src="" alt="" height="150">
+        </div>
+    </div>
+
+
+    <h2 id="round-result" class="not-visible"></h2>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
